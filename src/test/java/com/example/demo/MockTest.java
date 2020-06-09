@@ -44,6 +44,11 @@ public class MockTest {
 
             }
         };
+
+
+
+
+
             coderService.showSalary(100);
             Assert.assertEquals(1, personService.s());
         //record的方法，按照给定的结果返回
