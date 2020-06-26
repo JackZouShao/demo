@@ -21,9 +21,6 @@ public class PersonService {
         return age;
     }
 
-    public Person getDefaultPerson(){
-        return new Person("miao", 3, null);
-    }
     public int s (){
         return coderService.showSalary(100);
     }

@@ -27,14 +27,7 @@ public class MockTest {
     public void testInstance() {
         new Expectations() {
             {
-//                personService.showAge(anyInt);
-//                result = -1;
-//
-//                personService.getDefaultPerson();
-//                result = new Person("me", 4, null);
-//
-//                coderService.showWork(anyString);
-//                result = "java";
+
 
                 coderService.showSalary(100);
                 result = 9;
