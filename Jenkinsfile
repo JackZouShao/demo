@@ -2,7 +2,8 @@ pipeline {
   agent any
   stages{
     stage("mvn test"){
-      script{mvn test}
+      steps{ script{mvn test}}
+      
     }
   }
 }
